@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		81AA3E992BBCFA4900FA2D97 /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA3E982BBCFA4900FA2D97 /* ViewControllerProtocol.swift */; };
 		81AA3E9C2BBCFA9A00FA2D97 /* ProtocolDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA3E9B2BBCFA9A00FA2D97 /* ProtocolDemoController.swift */; };
+		81AA3E9F2BBD008900FA2D97 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA3E9E2BBD008900FA2D97 /* Notification.swift */; };
+		81AA3EA42BBD011000FA2D97 /* SFJObserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA3EA12BBD011000FA2D97 /* SFJObserve.swift */; };
+		81AA3EA52BBD011000FA2D97 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA3EA22BBD011000FA2D97 /* Observable.swift */; };
+		81AA3EA82BBD03C500FA2D97 /* KYWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA3EA72BBD03C500FA2D97 /* KYWrapper.swift */; };
+		81AA3EAB2BBD056500FA2D97 /* CombineObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA3EA92BBD044B00FA2D97 /* CombineObserver.swift */; };
+		81AA3EAC2BBD056500FA2D97 /* Observers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA3EA02BBD011000FA2D97 /* Observers.swift */; };
 		957E4A7626E9A3CC00E589E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E4A7526E9A3CC00E589E3 /* AppDelegate.swift */; };
 		957E4A7826E9A3CC00E589E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E4A7726E9A3CC00E589E3 /* SceneDelegate.swift */; };
 		957E4A7A26E9A3CC00E589E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E4A7926E9A3CC00E589E3 /* ViewController.swift */; };
@@ -39,6 +45,12 @@
 /* Begin PBXFileReference section */
 		81AA3E982BBCFA4900FA2D97 /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
 		81AA3E9B2BBCFA9A00FA2D97 /* ProtocolDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDemoController.swift; sourceTree = "<group>"; };
+		81AA3E9E2BBD008900FA2D97 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		81AA3EA02BBD011000FA2D97 /* Observers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observers.swift; sourceTree = "<group>"; };
+		81AA3EA12BBD011000FA2D97 /* SFJObserve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFJObserve.swift; sourceTree = "<group>"; };
+		81AA3EA22BBD011000FA2D97 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		81AA3EA72BBD03C500FA2D97 /* KYWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYWrapper.swift; sourceTree = "<group>"; };
+		81AA3EA92BBD044B00FA2D97 /* CombineObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineObserver.swift; sourceTree = "<group>"; };
 		957E4A7226E9A3CC00E589E3 /* SFJSwiftTipsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFJSwiftTipsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957E4A7526E9A3CC00E589E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		957E4A7726E9A3CC00E589E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +101,26 @@
 			path = ViewControllerProtocolDemo;
 			sourceTree = "<group>";
 		};
+		81AA3E9D2BBD005500FA2D97 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				81AA3E9E2BBD008900FA2D97 /* Notification.swift */,
+				81AA3EA12BBD011000FA2D97 /* SFJObserve.swift */,
+				81AA3EA22BBD011000FA2D97 /* Observable.swift */,
+				81AA3EA02BBD011000FA2D97 /* Observers.swift */,
+				81AA3EA92BBD044B00FA2D97 /* CombineObserver.swift */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
+		81AA3EA62BBD017100FA2D97 /* NameSpace */ = {
+			isa = PBXGroup;
+			children = (
+				81AA3EA72BBD03C500FA2D97 /* KYWrapper.swift */,
+			);
+			path = NameSpace;
+			sourceTree = "<group>";
+		};
 		957E4A6926E9A3CC00E589E3 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +144,8 @@
 		957E4A7426E9A3CC00E589E3 /* SFJSwiftTipsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				81AA3EA62BBD017100FA2D97 /* NameSpace */,
+				81AA3E9D2BBD005500FA2D97 /* Observable */,
 				81AA3E9A2BBCFA6300FA2D97 /* ViewControllerProtocolDemo */,
 				957E4A7526E9A3CC00E589E3 /* AppDelegate.swift */,
 				957E4A7726E9A3CC00E589E3 /* SceneDelegate.swift */,
@@ -272,9 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AA3EAB2BBD056500FA2D97 /* CombineObserver.swift in Sources */,
+				81AA3EAC2BBD056500FA2D97 /* Observers.swift in Sources */,
 				81AA3E9C2BBCFA9A00FA2D97 /* ProtocolDemoController.swift in Sources */,
 				81AA3E992BBCFA4900FA2D97 /* ViewControllerProtocol.swift in Sources */,
+				81AA3E9F2BBD008900FA2D97 /* Notification.swift in Sources */,
+				81AA3EA82BBD03C500FA2D97 /* KYWrapper.swift in Sources */,
 				957E4A7A26E9A3CC00E589E3 /* ViewController.swift in Sources */,
+				81AA3EA52BBD011000FA2D97 /* Observable.swift in Sources */,
+				81AA3EA42BBD011000FA2D97 /* SFJObserve.swift in Sources */,
 				957E4A7626E9A3CC00E589E3 /* AppDelegate.swift in Sources */,
 				957E4A7826E9A3CC00E589E3 /* SceneDelegate.swift in Sources */,
 			);
